@@ -33,7 +33,7 @@ public class UserHandler {
             return Result.error("-1","用户名或者密码错误");
         }
 
-        return Result.success();
+        return Result.success(res);
     }
 
     @PostMapping("/register")
