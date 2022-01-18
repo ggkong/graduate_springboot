@@ -30,7 +30,7 @@ public class UserTest {
     @Test
     public void testInsert(){
         User addUSer = new User();
-        addUSer.setUsername("kongge");
+        addUSer.setUsername("kongge12456");
         addUSer.setPassword("123456");
         int result = userMapper.insert(addUSer);
         System.out.println(result);
